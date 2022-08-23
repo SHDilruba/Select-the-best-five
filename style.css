@@ -12,3 +12,10 @@
     font-family: 'Oooh Baby', cursive;
     font-size: 60px;
 }
+.col img{
+  height: 200px;
+  margin-bottom: 5px;
+}
+.card{
+  border: 1px solid rgb(61, 55, 55);
+}
