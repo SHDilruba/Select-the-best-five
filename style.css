@@ -1,0 +1,14 @@
+ body{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(32, 27, 27);
+ }
+ header h1{
+    font-family: 'Oooh Baby', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(218, 92, 46)
+ }
+ header h2{
+    font-family: 'Oooh Baby', cursive;
+    font-size: 60px;
+}
