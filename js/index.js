@@ -37,4 +37,37 @@ function selectButton(element){
 function disable(x){
     x.disabled = true;
     x.style.backgroundColor = 'grey';
- }
+ }  
+ //======================== budget option =================//
+ 
+ document.getElementById('btn-calculate').addEventListener('click', function(){
+
+  const perPlayerAmountField = document.getElementById('player-amount-field');
+  const perPlayerAmountString =  perPlayerAmountField.value; 
+  const  perPlayerAmount = parseFloat(perPlayerAmountString);
+  
+  const playerExpensesAmountElement = document.getElementById('player-expenses-total'); 
+  const playerExpensesTotal = perPlayerAmount * 5;  
+  playerExpensesAmountElement.innerText =  playerExpensesTotal;
+
+//=================== total expenses ============================//
+
+ document.getElementById('btn-calculate-total').addEventListener('click', function(){
+
+  const managerAmountField = document.getElementById('manager-amount');
+  const managerAmountString = managerAmountField.value; 
+  const  managerAmount = parseFloat(managerAmountString);
+
+ 
+  
+  const coachAmountField = document.getElementById('coach-amount');
+  const coachAmountString = coachAmountField.value;
+  const coachAmount = parseFloat(coachAmountString);
+
+  const expensesTotalElement = document.getElementById('expenses-total');
+
+  const expensesTotal =  playerExpensesTotal + managerAmount + coachAmount;
+     expensesTotalElement.innerText = expensesTotal;
+  })
+
+ })
