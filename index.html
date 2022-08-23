@@ -76,6 +76,69 @@
           </table> 
         </div>
       </div>
+     </div>
+       <div class="row row-cols-1 row-cols-md-4 g-4 mt-xxl-5 ms-5 mb-5 text-white">
+         <div class="col text-center">
+           <div class="card h-100 bg-black">
+             <img src="images/Mushfiqur-Rahim.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h4 id="player-4" class="card-title">Mushfiqur Rahim</h4> <br>
+                  <div class="d-grid  col-10 mx-auto">
+                    <button class="btn btn-primary" onclick="selectButton(this), disable(this)" type="button">SELECT</button>
+                  </div>
+                </div>
+             </div>
+         </div>
+      <div class="col text-center">
+        <div class="card h-100 bg-black">
+          <img src="images/mahmudullah-riyad.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 id="player-5" class="card-title">Mahmudullah Riyad</h4> <br>
+               <div class="d-grid  col-10 mx-auto">
+                <button class="btn btn-primary" onclick="selectButton(this), disable(this)" type="button">SELECT</button>
+               </div>
+             </div>
+          </div>
+        </div>
+      <div class="col text-center">
+        <div class="card h-100 bg-black">
+          <img src="images/Imrul-Kayes.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 id="player-6" class="card-title">Imrul Kayes</h4> <br>
+            <div class="d-grid  col-10 mx-auto">
+              <button class="btn btn-primary" onclick="selectButton(this), disable(this)" type="button">SELECT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section>
+  <div class="col ps-5  text-left bg-black">
+      <section>
+        <h3 id="budget" class=" pe-5 pb-4 pt-1 text-center">Budget</h3>
+          <label class="me-3 text-white">Per player</label>
+            <input id="player-amount-field" type="text" class=" mb-2 w-20 py-2 ps-3 bg-black border-light text-white" value="1000">
+            <br>
+            <div class="d-grid  col-10 ">
+                <button id="btn-calculate" class="btn btn-primary mb-2 py-2" type="button">Calculate</button>
+            </div>
+               <p class="text-white">Player Expenses <span class="ps-3">$</span> <span id="player-expenses-total"></span></p>
+            <div>
+              <label class="me-4 pe-1 text-white">Manager</label>
+                <input id="manager-amount" type="text" class="py-2 mb-2 ps-3 bg-black border-light text-white" value="2000"><br>
+               <label class="me-5 text-white ">Coach</label>
+                <input id="coach-amount" type="text"  class=" py-2 ps-3 bg-black border-light text-white mb-2" value="4000">
+                <br>
+            <div class="d-grid  col-10 ">
+               <button id="btn-calculate-total" class="btn btn-primary" type="button">Calculate Total</button>
+            </div>
+            <div class="mt-2 pb-2 text-white">
+               <span class="pe-5"> Total </span> 
+               <span class="ps-5 ms-2"> $ </span> 
+               <span id="expenses-total"></span>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
    <!-- javascript file --> 

@@ -19,3 +19,12 @@
 .card{
   border: 1px solid rgb(61, 55, 55);
 }
+input{
+  width: 40%;
+}
+#expenses-total{
+  color: rgb(208, 96, 55)
+}
+#player-expenses-total{
+  color: rgb(215, 102, 61)
+}
